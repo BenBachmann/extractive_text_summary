@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Summariser</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="An extractive text summariser">
+        <link rel="stylesheet" href="interface.css">
+        <script src="interface.js"></script>
+    </head>
+    <body>
+        <h1 id="title">TEXT SUMMARISER</h1>
+        <div class="wik">
+            <label for="Name" id="wiktext">Paste Wikipedia link here:</label>
+            <input type="url" placeholder="Wikipedia link" id="tbox">
+            <button type="button" id="button1">Generate summary</button>
+        </div>
+        <p id="OR">OR</p>
+        <div class="text">
+            <label id="label">Write text here:</label>
+            <br>
+            <textarea id="tarea" rows=50 cols=100 placeholder="Enter text here..."></textarea>
+            <br>
+            <button id="button2" type="button" onclick="gensum()">Generate summary</button>
+        </div>
+    </body>
+</html>
